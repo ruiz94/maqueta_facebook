@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FB</title>
+    <!-- Colocamos el icono de la página -->
+    <link rel="icon" type="image/png" href="https://img.icons8.com/color/48/000000/facebook-new.png" />
+    <!-- <img src="https://img.icons8.com/color/48/000000/facebook-new.png"> -->
+    <!-- algunos iconos e imágenes son de icons8.com  -->
+    <!-- linearicons.com  -->
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Livvic&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="../../css/style_fb.css">
+    
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <div class="return">
+        <a href="../../index.html">Regresar</a>
+    </div>
+    <div class="fb">
+        <div class="header">
+            <div class="logo">
+                <a href=""><p>facebook</p></a>
+            </div>
+            <div class="search">
+                <img class="icon2" src="https://img.icons8.com/ios/64/000000/zoom-in.png">
+                <input id="input_search" type="text" placeholder="Search">
+            </div>
+            <div class="perfil">
+                    <div class="iconos">
+                        <span ><img class="icon2" src="https://img.icons8.com/ios/30/000000/add-user-male.png"></span>
+                        <span ><img class="icon2" src="https://img.icons8.com/ios/50/000000/facebook-messenger.png"></span>
+                        <span ><img class="icon2-1" src="https://img.icons8.com/carbon-copy/100/000000/bell.png"></span>
+                        <span ><img class="icon2-1" src="https://img.icons8.com/carbon-copy/100/000000/automatic.png"></span>
+                    </div>
+                    <div class="icono-perfil">
+                            <img class="icon3" src="../../img/fb/perfil2.jpg">
+                            <p class="nombre">Bianka</p>
+                            <div class="drop-menu" id="drop-menu">
+                                <ul>
+                                    <li class="support">Support</li>
+                                    <li class="help">Help</li>
+                                    <li class="settings">Settings</li>
+                                    <li class="log out">Log Out</li>
+                                </ul>
+                                <span class="divide"></span>
+                                <ul class="forPhone">
+                                    <li class="feed selected">Feed</li>
+                                    <li class="menu">Menu</li>
+                                    <li class="stories">Stories & Chat</li>
+                                </ul>
+                            </div>
+                    </div>
+            </div>
+        </div>
+        <div class="cuerpo">
+            <div class="content-left">
+                <div class="left">
+                    <div class="menu">Menu</div>
+                    <div class="news">
+                        <div class="title">
+                        <a href=""><img class="icon" src="https://img.icons8.com/ios/48/000000/news.png"> News feed </a><i class="right-float" data-feather="more-horizontal"></i></div>
+                        <div class="messenger"><a href=""><img class="icon" src="https://img.icons8.com/ios/48/000000/facebook-messenger.png"> Messenger</a> <span class="count right-float">3</span></div>
+                        <div class="photos"><a href=""><img class="icon" src="https://img.icons8.com/ios/48/000000/camera.png"> Photos</a></div>
+                        <div class="pages"><a href=""><img class="icon" src="https://img.icons8.com/wired/64/000000/layers.png"> Pages</a></div>
+                        <div class="events"><a href=""><img class="icon" src="https://img.icons8.com/ios/48/000000/overtime.png"> Events </a><span class="count right-float">3</span></div>
+                        <div class="groups"><a href=""><img class="icon" src="https://img.icons8.com/ios/48/000000/google-groups.png"> groups </a><span class="count right-float">7</span></div>
+                        <div class="market"><a href=""><img class="icon" src="https://img.icons8.com/ios/48/000000/shop.png"> Marketplace</a></div>
+                        <div class="saved"><a href=""><img class="icon" src="https://img.icons8.com/ios/48/000000/bookmark-ribbon.png"> Saved</a></div>
+                    </div>
+                    <div class="shortcuts">
+                        <div class="title">Shortcuts</div>
+                        <div><a href=""><img class="icon" src="https://img.icons8.com/ios/48/000000/bbc-logo.png"> BBC</a></div>
+                        <div><a href=""><img class="icon" src="https://ambientweather.net/wp-content/uploads/2018/03/Wunderground-logo-small.gif"> Wunderground</a></div>
+                        <div><a href=""><img class="icon" src="https://cdn2.iconfinder.com/data/icons/metro-uinvert-dock/256/CNN.png"> CNN</a></div>
+                    </div>
+                    <div class="create">
+                        <div class="title">Create</div>
+                        <div><a href=""><span class="lnr lnr-bullhorn icon"></span> Ad</a></div>
+                        <div class="page"><a href=""><img class="icon" src="https://img.icons8.com/ios/64/000000/web.png"> Page</a></div>
+                        <div class="event"><a href=""><img class="icon" src="https://img.icons8.com/ios/48/000000/overtime.png"> Event</a></div>
+                        <div class="group"><a href=""><img class="icon" src="https://img.icons8.com/ios/48/000000/google-groups.png"> Group</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-center">
+                <div class="center">
+                    <div class="head shadow">
+                        <div class="cabezera">
+                            <img class="icon4" src="../../img/fb/perfil2.jpg">
+                            <div contenteditable="true" id="input-estatus" placeholder="What's on your mind, Bianka?"></div>
+                        </div>
+                        <div class="botones">
+                            <span>
+                                    <img class="mini" src="https://img.icons8.com/ios/24/000000/stack-of-photos.png">
+                                    <span>Photo / Video</span>
+                            </span>
+                            <span>
+                                <img class="mini" src="https://img.icons8.com/ios/32/000000/meditation-guru.png">
+                                <span>Feeling / Activity</span>
+                            </span>
+                            <span>
+                                    <i class="right-float" data-feather="more-horizontal"></i>
+                            </span>
+                            <span class="share" id="btn_share">
+                                Share
+                            </span>
+                        </div>
+                    </div>
+                    <div class="publicaciones">
+                        <div class="publicacion shadow">
+                            <div class="head2">
+                                    <a href=""><img class="icon4" src="../../img/fb/persona_4.jpg" alt="Imagen de perfil"></a>
+                                    <div class="datos">
+                                        <p class="nombre">Melisa Smith</p>
+                                        <p class="last connection">34 minutes ago</p>
+                                    </div>
+                                    <i class="right-float" data-feather="more-horizontal"></i>
+                            </div>
+                            <div class="content">
+                                <div class="texto" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim ipsum vel
+                                     pellentesque vulputate. Vivamus eget sodales sem, dapibus aliquet felis. Vivamus tortor massa, 
+                                     consectetur at fermentum sed, ultrices vitae erat. Donec vehicula consectetur elit suscipit placerat.
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <a href="">
+                                    <img class="mini" src="https://img.icons8.com/pastel-glyph/64/000000/facebook-like.png">
+                                    Like
+                                </a>
+                                <a href="">
+                                    <img class="mini" src="https://img.icons8.com/small/32/000000/speech-bubble-with-dots.png">
+                                    Comment
+                                </a>
+                                <a href="">
+                                    <img class="mini" src="https://img.icons8.com/ios/50/000000/right2.png">
+                                    Share
+                                </a>
+                            </div>
+                        </div>
+                        <div class="publicacion shadow">
+                            <div class="head2">
+                                    <a href=""><img class="icon4 tiene-historia" src="../../img/fb/persona_2.jpg" alt="Imagen de perfil"></a>
+                                    <div class="datos">
+                                        <p class="nombre">Melisa Smith</p>
+                                        <p class="last connection">January 9 at 12:45 PM</p>
+                                    </div>
+                                    <i class="right-float" data-feather="more-horizontal"></i>
+                            </div>
+                            <div class="content">
+                                <div class="imagenes">
+                                    <a href="">
+                                        <img class="img_status_1" src="../../img/fb/paisaje_1.jpg">
+                                    </a>
+                                    <a href="">
+                                        <img class="img_status_1" src="../../img/fb/paisaje_2.jpg">
+                                    </a>
+                                    <a href="" class="mas">
+                                        <img class="img_status_1" src="../../img/fb/paisaje_4.jpg">
+                                        <p class="simbolo">+3</p>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <a href="">
+                                    <img class="mini" src="https://img.icons8.com/pastel-glyph/64/000000/facebook-like.png">
+                                    Like
+                                </a>
+                                <a href="">
+                                    <img class="mini" src="https://img.icons8.com/small/32/000000/speech-bubble-with-dots.png">
+                                    Comment
+                                </a>
+                                <a href="">
+                                    <img class="mini" src="https://img.icons8.com/ios/50/000000/right2.png">
+                                    Share
+                                </a>
+                            </div>
+                        </div>
+                        <div class="publicacion shadow">
+                            <div class="head2">
+                                    <a href=""><img class="icon4" src="../../img/fb/persona_1.jpg" alt="Imagen de perfil"></a>
+                                    <div class="datos">
+                                        <p class="nombre">Melisa Smith</p>
+                                        <p class="last connection">January 9 at 12:45 PM</p>
+                                    </div>
+                                    <i class="right-float" data-feather="more-horizontal"></i>
+                            </div>
+                            <div class="content">
+                                <div class="una-imagen">
+                                    <a href="">
+                                        <img class="img_status_2" src="../../img/fb/paisaje_3.jpg">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <a href="">
+                                    <img class="mini" src="https://img.icons8.com/pastel-glyph/64/000000/facebook-like.png">
+                                    Like
+                                </a>
+                                <a href="">
+                                    <img class="mini" src="https://img.icons8.com/small/32/000000/speech-bubble-with-dots.png">
+                                    Comment
+                                </a>
+                                <a>
+                                    <img class="mini" src="https://img.icons8.com/ios/50/000000/right2.png">
+                                    Share
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-right">
+                <div class="right">
+                    <div class="hijo stories shadow">
+                        <div class="title">
+                            <p>Stories</p>
+                            <i class="right-float" data-feather="more-horizontal"></i>
+                        </div>
+                        <div class="imgs">
+                            <div>
+                                <a href="">
+                                <img class="story" src="../../img/fb/perfil2.jpg" alt="story">
+                                <svg class="centro" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 172 172" style=" fill:#000000;">
+                                    <g fill="none" fill-rule="none" stroke="none" stroke-width="1" stroke-linecap="butt" 
+                                        stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" 
+                                        font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                        <path d="M0,172v-172h172v172z" fill="none" fill-rule="nonzero"></path>
+                                        <g fill="#ffffff" fill-rule="evenodd">
+                                            <g id="surface1"><path d="M78.83333,14.33333v64.5h-64.5v14.33333h64.5v64.5h14.33333v-64.5h64.5v-14.33333h-64.5v-64.5z"></path></g>
+                                        </g>
+                                    </g>
+                                </svg>
+                                </a>
+                                <p>Add your story</p>
+                            </div>
+                            <div>
+                                <a href=""><img class="story" src="../../img/fb/img_1.jpg" alt="story"></a>
+                                <a href=""><img class="centro two tiene-historia" src="../../img/fb/persona_1.jpg"></a>
+                                <p>Amelie Heaton</p>
+                            </div>
+                            <div>
+                                <a href=""><img class="story" src="../../img/fb/img_2.jpg" alt="story"></a>
+                                <a href=""><img class="centro two tiene-historia" src="../../img/fb/persona_2.jpg"></a>
+                                <p>Thomas Edison</p>
+                            </div>
+                            <div>
+                                <a href=""><img class="story" src="../../img/fb/img_3.jpg" alt="story"></a>
+                                <a href=""><img class="centro two tiene-historia" src="../../img/fb/persona_3.jpg"></a>
+                                <p>Hodgins blu</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="hijo chat shadow">
+                        <div class="title">
+                            <p>Chat</p>
+                            <i class="right-float" data-feather="more-horizontal"></i>
+                        </div>
+                        <div class="online">
+                            <div class="title2"><p class="circle estatus green"></p> Online</div>
+                            <div class="usuarios">
+                                <div class="persona usuario1">
+                                        <p class="circle estatus ch green"></p>
+                                        <a href=""><img class="icon3" src="../../img/fb/persona_4.jpg" alt="Imagen de perfil"></a>
+                                        <p class="nombre">Melisa Smith</p>
+                                        <a href=""><img class="icon2" src="https://img.icons8.com/carbon-copy/100/000000/phone.png"></a>
+                                        <a href=""><img class="icon" src="https://img.icons8.com/ios/50/000000/video-call.png"></a>
+                                </div>
+                                <div class="persona usuario2">
+                                        <p class="circle estatus ch green"></p>
+                                        <a href=""><img class="icon3" src="../../img/fb/persona_2.jpg" alt="Imagen de perfil"></a>
+                                        <p class="nombre">Melisa Smith</p>
+                                        <a href=""><img class="icon2" src="https://img.icons8.com/carbon-copy/100/000000/phone.png"></a>
+                                        <a href=""><img class="icon" src="https://img.icons8.com/ios/50/000000/video-call.png"></a>
+                                </div>
+                                <div class="persona usuario3">
+                                        <p class="circle estatus ch ambar"></p>
+                                        <a href=""><img class="icon3" src="../../img/fb/persona_6.jpg" alt="Imagen de perfil"></a>
+                                        <p class="nombre">Melisa Smith</p>
+                                        <a href=""><img class="icon2" src="https://img.icons8.com/carbon-copy/100/000000/phone.png"></a>
+                                        <a href=""><img class="icon" src="https://img.icons8.com/ios/50/000000/video-call.png"></a>
+                                </div>
+                                <div class="persona usuario4">
+                                        <p class="circle estatus ch ambar"></p>
+                                        <a href=""><img class="icon3" src="../../img/fb/persona_8.jpg" alt="Imagen de perfil"></a>
+                                        <p class="nombre">Melisa Smith</p>
+                                        <a href=""><img class="icon2" src="https://img.icons8.com/carbon-copy/100/000000/phone.png"></a>
+                                        <a href=""><img class="icon" src="https://img.icons8.com/ios/50/000000/video-call.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ofline">
+                            <div class="title2"><p class="circle estatus"></p> Offline</div>
+                            <div class="usuarios">
+                                    <div class="persona usuario1">
+                                            <p class="circle estatus ch green"></p>
+                                            <a href=""><img class="icon3" src="../../img/fb/persona_3.jpg" alt="Imagen de perfil"></a>
+                                            <p class="nombre">Melisa Smith</p>
+                                            <a href=""><img class="icon2" src="https://img.icons8.com/carbon-copy/100/000000/phone.png"></a>
+                                            <a href=""><img class="icon" src="https://img.icons8.com/ios/50/000000/video-call.png"></a>
+                                    </div>
+                                    <div class="persona usuario2">
+                                            <p class="circle estatus ch green"></p>
+                                            <a href=""><img class="icon3" src="../../img/fb/persona_5.jpg" alt="Imagen de perfil"></a>
+                                            <p class="nombre">Melisa Smith</p>
+                                            <a href=""><img class="icon2" src="https://img.icons8.com/carbon-copy/100/000000/phone.png"></a>
+                                            <a href=""><img class="icon" src="https://img.icons8.com/ios/50/000000/video-call.png"></a>
+                                    </div>
+                                    <div class="persona usuario3">
+                                            <p class="circle estatus ch ambar"></p>
+                                            <a href=""><img class="icon3" src="../../img/fb/persona_7.jpg" alt="Imagen de perfil"></a>
+                                            <p class="nombre">Melisa Smith</p>
+                                            <a href=""><img class="icon2" src="https://img.icons8.com/carbon-copy/100/000000/phone.png"></a>
+                                            <a href=""><img class="icon" src="https://img.icons8.com/ios/50/000000/video-call.png"></a>
+                                    </div>
+                                    <div class="persona usuario4">
+                                            <p class="circle estatus ch ambar"></p>
+                                            <a href=""><img class="icon3" src="../../img/fb/persona_1.jpg" alt="Imagen de perfil"></a>
+                                            <p class="nombre">Melisa Smith</p>
+                                            <a href=""><img class="icon2" src="https://img.icons8.com/carbon-copy/100/000000/phone.png"></a>
+                                            <a href=""><img class="icon" src="https://img.icons8.com/ios/50/000000/video-call.png"></a>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   <script src="../../js/script_fb.js"></script>
+</body>
+</html>
