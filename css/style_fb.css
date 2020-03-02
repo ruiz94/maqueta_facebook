@@ -3,6 +3,10 @@ body {
   min-width: 360px;
 }
 
+.dillan_mlp{
+	display: none;
+}
+
 .fb {
   min-width: 360px;
   width: 80%;
